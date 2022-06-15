@@ -3,7 +3,7 @@
 #include <conio.h>
 
 using namespace std;
-//update bang
+
 //global variable declaration
 struct{
     char kode_brg[5];
