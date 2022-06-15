@@ -48,7 +48,7 @@ int main(){
             Input_barang();
                 break;
             case 2:
-            goto keluar;
+                goto keluar;
             default:
             cout<<"Menu Tidak Ada"<<endl;
                 break;
