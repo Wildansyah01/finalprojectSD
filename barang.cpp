@@ -39,8 +39,7 @@ int main(){
         cout<<"    Aplikasi    "<<endl;
         cout<<"================"<<endl;
         cout<<"1. Input Data Mahasiswa"<<endl;
-        cout<<"2. Hitung IPK"<<endl;
-        cout<<"3. Exit"<<endl;
+        cout<<"2. Exit"<<endl;
         cout<<"pilih opsi yang di inginkan : ";
         cin >> menu;
         switch (menu){
@@ -60,9 +59,7 @@ int main(){
         isExit = exit == "y" ? true : false;
     } while (!isExit);
 
-        keluar:
-
-        
+        keluar:   
     
     return 0;
 }
