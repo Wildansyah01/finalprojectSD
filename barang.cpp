@@ -44,12 +44,12 @@ int main(){
         cin >> menu;
         switch (menu){
             case 1:
-            Input_barang();
+                Input_barang();
                 break;
             case 2:
                 goto keluar;
             default:
-            cout<<"Menu Tidak Ada"<<endl;
+                cout<<"Menu Tidak Ada"<<endl;
                 break;
         }
 
